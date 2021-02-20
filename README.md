@@ -8,7 +8,7 @@ Input data set is a set of images of Yosemite national park taken either during 
 ## CycleGAN
 A CycleGAN is designed for image-to-image translation and it learns from unpaired training data. This means that in order to train a generator to translate images from domain X to domain Y, we do not have to have exact correspondences between individual images in those domains. For example, in the [paper that introduced CycleGANs](https://arxiv.org/pdf/1703.10593.pdf), the authors are able to translate between images of horses and zebras, even though there are no images of a zebra in exactly the same position as a horse or with exactly the same background, etc. Thus, CycleGANs enable learning a mapping from one domain  X  to another domain  Y  without having to find perfectly-matched, training pairs.
 
-![Horse2Zebra](horse2zebra.jpg)
+![Horse2Zebra](images/horse2zebra.jpg)
 
 A CycleGAN is made of two types of networks: discriminators, and generators. In this example, the discriminators are responsible for classifying images as real or fake (for both  X  and  Y  kinds of images). The generators are responsible for generating convincing, fake images for both kinds of images.
 
