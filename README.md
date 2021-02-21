@@ -92,3 +92,4 @@ When a CycleGAN trains, and sees one batch of real images from set  X  and  Y , 
 * [Cycle GAN and pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/)
 * [NVIDIA pix2pix](https://github.com/NVIDIA/pix2pixHD)
 * [Unsupervised image translation](https://github.com/mingyuliutw/UNIT)
+* [Image-to-Image Examples](https://affinelayer.com/pixsrv/)
